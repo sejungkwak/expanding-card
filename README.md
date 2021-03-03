@@ -4,19 +4,19 @@
 
 project note
 
-1. html
-h1 - title
-div - box
-p - text
+1. html<br />
+h1 - title<br />
+div - box<br />
+p - text<br />
 
-2. css
-flexbox
-background-image
-transition
-p - text is hidden, but visible when the card fully expands
-@media
+2. css<br />
+flexbox<br />
+background-image<br />
+transition<br />
+p - text is hidden, but visible when the card fully expands<br />
+@media<br />
 
-3. js
-click - eventListener
+3. js<br />
+click - eventListener<br />
 
 challenge by Brad Traversy & Florin Pop on Udemy "50 Project in 50 Days"
