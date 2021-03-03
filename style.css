@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-basis: auto;
+    align-items: center;
+    height: 85vh;
+    padding: 0 60px 0;
+}
+
+.box {
+    display: flex;
+    flex: 0.3 0.3 0.3;
+    align-items: flex-end;
+    width: 80px;
+    height: 85vh;
+    margin: 0 10px 0;
+    border-radius: 40px;
+}
+
+.transition {
+    display: flex;
+    flex: 1 1 auto;
+    align-items: flex-end;
+    justify-content: center;
+    height: 85vh;
+    margin: 0 10px 0;
+    border-radius: 40px;
+    transition: width 1000ms linear;
+    background-size: 100% 100%;
+}
+
+.box1 {
+    background-image: url(images/almond-blossom.jpg);
+    background-repeat: no-repeat;
+}
+
+.box2 {
+    background-image: url(images/the-persistence-of-memory.jpg);
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    background-image: url(images/the-scream.png);
+    background-repeat: no-repeat;
+}
+
+.box4 {
+    background-image: url(images/white-ox.jpg);
+    background-repeat: no-repeat;
+}
+
+.box5 {
+    background-image: url(images/school-of-athens.jpg);
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: #534d57;
+    padding-left: 70px;
+}
+
+.painting-title {
+    text-shadow: 2px 2px 5px #534d57;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    visibility: hidden;
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .box {
+        flex: 0.3 0.3 0.3;
+        width: 80vw;
+        height: 10vh;
+        border-radius: 20px;
+    }
+
+    .transition {
+        display: flex;
+        flex: 1 1 auto;
+        height: 85vh;
+        border-radius: 40px;
+        transition: height;
+    }
+}
