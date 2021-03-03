@@ -22,7 +22,7 @@ click - eventListener<br />
 challenge by Brad Traversy & Florin Pop on Udemy "50 Project in 50 Days"
 
 
-# takeout from the instructor
+# takeaway from the instructor
 
 1. html<br />
 background-image used inline css.<br />
